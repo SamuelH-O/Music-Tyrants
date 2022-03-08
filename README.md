@@ -8,17 +8,17 @@ Music Tyrants est un exemple d'implementation d'un site Bootstrap 5 Showroom de 
 
 ![Exemple d'utilisation](/Exemple_d'utilisation.png)
 
-## Instalation
+## installation
 
 1. Placer le projet sur un serveur web supportant PHP 5.6 minimum
 2. Organiser sa base de données comme sur le schéma ci-dessous ou importer le fichier à importer
 3. Changer les paramètres de connexion dans CodeIgniter/application/config/database.php en fonction de votre serveur sql
-4. Ajouter les Déclancheurs, Fonctions et Procédures SQL/PSM à la base de données
+4. Ajouter les Déclencheurs, Fonctions et Procédures SQL/PSM à la base de données
 
 ### Schéma relationnel
 ![Schéma relationnel](/sch%C3%A9ma%20relationnel.png)
 
-### Déclancheurs SQL/PSM à ajouter à la base de données
+### Déclencheurs SQL/PSM à ajouter à la base de données
 
 **del_act_after_anim** supprime les actualités concernant l’animation qui est
 supprimer :
@@ -33,7 +33,7 @@ supprimer :
 	END;
 	// DELIMITER ;
 
-**modif_anim** ajoute une actualité à chaque fois qu’une animation est modifier :
+**modif_anim** ajoute une actualité à chaque fois qu’une animation est modifiée :
 
 	DELIMITER //
 	CREATE TRIGGER modif_anim AFTER UPDATE ON T_ANIMATION_ani
@@ -147,7 +147,7 @@ supprimer :
 	END;
 	// DELIMITER ;
 
-**time_remaining** ajoute une actualite avec le temps restant en fonction de l’id d’une animation passé en paramètre :
+**time_remaining** ajoute une actualité avec le temps restant en fonction de l’id d’une animation passé en paramètre :
 
 	DELIMITER //
 	CREATE PROCEDURE time_remaining(id INT)
