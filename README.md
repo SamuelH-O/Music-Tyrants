@@ -8,7 +8,7 @@ Music Tyrants est un exemple d'implementation d'un site Bootstrap 5 Showroom de 
 
 ![Exemple d'utilisation](/Exemple_d'utilisation.png)
 
-## installation
+## Installation
 
 1. Placer le projet sur un serveur web supportant PHP 5.6 minimum
 2. Organiser sa base de données comme sur le schéma ci-dessous ou importer le fichier à importer
