@@ -7,7 +7,7 @@ Music Tyrants est un exemple d'implementation d'un site Bootstrap 5 Showroom ave
 ## Instalation
 
 1. Placer le projet sur un serveur web supportant PHP 5.6 minimum
-2. Organiser sa base de données comme sur le schéma ci-dessous
+2. Organiser sa base de données comme sur le schéma ci-dessous ou importer le fichier à importer
 3. Changer les paramètres de connexion dans CodeIgniter/application/config/database.php en fonction de votre serveur sql
 4. Ajouter les Déclancheurs, Fonctions et Procédures SQL/PSM à la base de données
 
