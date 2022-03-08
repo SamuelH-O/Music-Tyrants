@@ -48,7 +48,7 @@ supprimer :
 		END IF;
 	END;
 	//
-	DELIMITER ;`
+	DELIMITER ;
 
 **new_lieu** ajoute une actualité à chaque fois qu’un lieu est ajouté :
 	
