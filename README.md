@@ -2,7 +2,7 @@
 
 ## Description
 
-Music Tyrants est un exemple d'implementation d'un site Bootstrap 5 Showroom de festival de music avec CodeIgniter V3.1.11. Le template utilisé : [DevConf](https://github.com/xriley/DevConf-Theme)
+Music Tyrants est une application web réalisée dans le cadre de ma licence en utilisant Bootstrap 5 et CodeIgniter V3.1.11. Le template utilisé : [DevConf](https://github.com/xriley/DevConf-Theme)
 
 ## Exemple d'utilisation
 
